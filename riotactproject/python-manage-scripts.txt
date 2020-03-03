@@ -22,4 +22,14 @@ python manage.py createsuperuser
 
 
 
+### FORMS
+
+# allows you to customize form.api widgets further
+# Add this to settings.py INSTALLED_APPS -> 'widget_tweaks'
+
+pip install django-widget-tweaks
+
+
+
+
 
