@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path
 from boardsapp import views
-from accounts import accounts_views
+from accounts import views as accounts_views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
