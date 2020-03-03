@@ -1,0 +1,11 @@
+# add migrations
+
+python manage.py makemigrations
+
+# generate scripts to apply to database
+
+python manage.py sqlmigrate boardsapp 0001
+
+# update database w/ migrations
+
+python manage.py migrate
